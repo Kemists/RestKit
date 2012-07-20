@@ -167,10 +167,10 @@
 		25160ECB1456532C0060A5C5 /* GCOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E8F1456532C0060A5C5 /* GCOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160ECC1456532C0060A5C5 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E901456532C0060A5C5 /* GCOAuth.m */; };
 		25160ECD1456532C0060A5C5 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E901456532C0060A5C5 /* GCOAuth.m */; };
-		25160ECE1456532C0060A5C5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E911456532C0060A5C5 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160ECF1456532C0060A5C5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E911456532C0060A5C5 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25160ED01456532C0060A5C5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E921456532C0060A5C5 /* NSData+Base64.m */; };
-		25160ED11456532C0060A5C5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E921456532C0060A5C5 /* NSData+Base64.m */; };
+		25160ECE1456532C0060A5C5 /* RKNSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E911456532C0060A5C5 /* RKNSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25160ECF1456532C0060A5C5 /* RKNSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E911456532C0060A5C5 /* RKNSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25160ED01456532C0060A5C5 /* RKNSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E921456532C0060A5C5 /* RKNSData+Base64.m */; };
+		25160ED11456532C0060A5C5 /* RKNSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160E921456532C0060A5C5 /* RKNSData+Base64.m */; };
 		25160ED31456532C0060A5C5 /* FileMD5Hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 25160E951456532C0060A5C5 /* FileMD5Hash.c */; };
 		25160ED41456532C0060A5C5 /* FileMD5Hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 25160E951456532C0060A5C5 /* FileMD5Hash.c */; };
 		25160ED51456532C0060A5C5 /* FileMD5Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160E961456532C0060A5C5 /* FileMD5Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -919,8 +919,8 @@
 		25160E78145651060060A5C5 /* RestKitFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25160E8F1456532C0060A5C5 /* GCOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOAuth.h; sourceTree = "<group>"; };
 		25160E901456532C0060A5C5 /* GCOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCOAuth.m; sourceTree = "<group>"; };
-		25160E911456532C0060A5C5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		25160E921456532C0060A5C5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		25160E911456532C0060A5C5 /* RKNSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKNSData+Base64.h"; sourceTree = "<group>"; };
+		25160E921456532C0060A5C5 /* RKNSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKNSData+Base64.m"; sourceTree = "<group>"; };
 		25160E931456532C0060A5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		25160E951456532C0060A5C5 /* FileMD5Hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FileMD5Hash.c; sourceTree = "<group>"; };
 		25160E961456532C0060A5C5 /* FileMD5Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileMD5Hash.h; sourceTree = "<group>"; };
@@ -1615,8 +1615,8 @@
 			children = (
 				25160E8F1456532C0060A5C5 /* GCOAuth.h */,
 				25160E901456532C0060A5C5 /* GCOAuth.m */,
-				25160E911456532C0060A5C5 /* NSData+Base64.h */,
-				25160E921456532C0060A5C5 /* NSData+Base64.m */,
+				25160E911456532C0060A5C5 /* RKNSData+Base64.h */,
+				25160E921456532C0060A5C5 /* RKNSData+Base64.m */,
 				25160E931456532C0060A5C5 /* README.md */,
 			);
 			path = "cocoa-oauth";
@@ -2206,7 +2206,7 @@
 				25160E51145650490060A5C5 /* RKSearchEngine.h in Headers */,
 				25160E53145650490060A5C5 /* Support.h in Headers */,
 				25160ECA1456532C0060A5C5 /* GCOAuth.h in Headers */,
-				25160ECE1456532C0060A5C5 /* NSData+Base64.h in Headers */,
+				25160ECE1456532C0060A5C5 /* RKNSData+Base64.h in Headers */,
 				25160ED51456532C0060A5C5 /* FileMD5Hash.h in Headers */,
 				25160ED71456532C0060A5C5 /* FileMD5Hash_Prefix.pch in Headers */,
 				25160EDD1456532C0060A5C5 /* JSONKit.h in Headers */,
@@ -2281,7 +2281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25160ECB1456532C0060A5C5 /* GCOAuth.h in Headers */,
-				25160ECF1456532C0060A5C5 /* NSData+Base64.h in Headers */,
+				25160ECF1456532C0060A5C5 /* RKNSData+Base64.h in Headers */,
 				25160ED61456532C0060A5C5 /* FileMD5Hash.h in Headers */,
 				25160ED81456532C0060A5C5 /* FileMD5Hash_Prefix.pch in Headers */,
 				25160EDE1456532C0060A5C5 /* JSONKit.h in Headers */,
@@ -2749,7 +2749,7 @@
 				25160E50145650490060A5C5 /* RKPathMatcher.m in Sources */,
 				25160E52145650490060A5C5 /* RKSearchEngine.m in Sources */,
 				25160ECC1456532C0060A5C5 /* GCOAuth.m in Sources */,
-				25160ED01456532C0060A5C5 /* NSData+Base64.m in Sources */,
+				25160ED01456532C0060A5C5 /* RKNSData+Base64.m in Sources */,
 				25160ED31456532C0060A5C5 /* FileMD5Hash.c in Sources */,
 				25160EDF1456532C0060A5C5 /* JSONKit.m in Sources */,
 				25160EE41456532C0060A5C5 /* lcl.m in Sources */,
@@ -2902,7 +2902,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25160ECD1456532C0060A5C5 /* GCOAuth.m in Sources */,
-				25160ED11456532C0060A5C5 /* NSData+Base64.m in Sources */,
+				25160ED11456532C0060A5C5 /* RKNSData+Base64.m in Sources */,
 				25160ED41456532C0060A5C5 /* FileMD5Hash.c in Sources */,
 				25160EE01456532C0060A5C5 /* JSONKit.m in Sources */,
 				25160EE51456532C0060A5C5 /* lcl.m in Sources */,
